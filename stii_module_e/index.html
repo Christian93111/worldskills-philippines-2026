@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Slide Show</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h2>Photo Slide Show</h2>
+            <div id="site-header">
+                <button type="button" id="browseBtn">Browse Photos</button>
+                <button type="button" id="loadSampleBtn">Load Sample Photos</button>
+                <button type="button" id="fullScreenBtn">Full Screen</button>
+                <input type="file" id="fileInput" multiple accept="image/*">
+            </div>
+        </header>
+
+        <div id="drop-area">
+            <p>Drop Image here to load</p>
+        </div>
+
+        <main>
+            <div id="row">
+                <div id="group">
+                    <label>Operating: </label>
+                    <select id="operatingMode">
+                        <option value="manual">Manual</option>
+                        <option value="auto">Auto Play</option>
+                        <option value="random">Random Play</option>
+                    </select>
+                </div>
+                <div id="group">
+                    <label>Theme: </label>
+                    <select id="themeMode">
+                        <option value="a">Theme A</option>
+                        <option value="b">Theme B</option>
+                        <option value="c">Theme C</option>
+                        <option value="d">Theme D</option>
+                        <option value="e">Theme E</option>
+                        <option value="f">Theme F</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="slideshow">
+                <div id="slide"></div>
+            </div>
+
+            <div class="photoList">
+                <p>Photo Selected: </p>
+                <div id="photoList"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

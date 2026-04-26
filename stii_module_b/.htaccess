@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /stii_module_b/
+
+RewriteRule ^01/(\d{13,14})$ public_product.php?gtin=$1 [L,QSA]
+
+RewriteRule ^verify-gtin$ verify_gtin.php [L,QSA]
+
+RewriteRule ^products\.json$ api.php?endpoint=products.json [L,QSA]
+RewriteRule ^products/(\d{13,14})\.json$ api.php?endpoint=products/$1.json [L,QSA]
+
+RewriteRule ^companies$ companies.php [L,QSA]
+RewriteRule ^companies/deactivated$ deactivated_companies.php [L,QSA]
+RewriteRule ^companies/new$ company_form.php [L,QSA]
+RewriteRule ^companies/(\d+)$ company_view.php?id=$1 [L,QSA]
+RewriteRule ^companies/(\d+)/edit$ company_form.php?id=$1 [L,QSA]
+RewriteRule ^companies/(\d+)/deactivate$ company_form.php?deactivate=$1 [L,QSA]
+
+RewriteRule ^products$ products.php [L,QSA]
+RewriteRule ^products/new$ product_form.php [L,QSA]
+
+RewriteRule ^products/(\d{13,14})$ product_view.php?gtin=$1 [L,QSA]
+RewriteRule ^products/(\d{13,14})/edit$ product_form.php?gtin=$1 [L,QSA]
+RewriteRule ^products/(\d{13,14})/delete$ product_delete.php?gtin=$1 [L,QSA]
+
+RewriteRule ^login$ login.php [L,QSA]
+RewriteRule ^logout$ logout.php [L,QSA]
+
+DirectoryIndex login.php
