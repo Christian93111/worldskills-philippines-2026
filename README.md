@@ -27,20 +27,20 @@
 
 ## Table of Contents
 
-- [Competition Overview](#-competition-overview)
-- [Project Structure](#-project-structure)
-- [Module B — Companies & Products Management System](#-module-b--companies--products-management-system)
+- [Competition Overview](#competition-overview)
+- [Project Structure](#project-structure)
+- [Module B — Companies & Products Management System](#module-b--companies--products-management-system)
   - [Features](#features-module-b)
   - [Tech Stack](#tech-stack-module-b)
   - [Database Schema](#database-schema)
   - [REST API Reference](#rest-api-reference)
   - [Setup & Installation](#setup--installation-module-b)
-- [Module E — Photo Slideshow Application](-module-e--photo-slideshow-application)
+- [Module E — Photo Slideshow Application](#module-e--photo-slideshow-application)
   - [Features](#features-module-e)
   - [Tech Stack](#tech-stack-module-e)
   - [Setup & Usage](#setup--usage-module-e)
-- [API Endpoints](#-api-endpoints)
-- [Acknowledgements](#-acknowledgements)
+- [API Endpoints](#api-endpoints)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
