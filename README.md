@@ -50,7 +50,6 @@
 |-------|---------|
 | **Event** | WorldSkills Philippines 2026 — Regional 9 Competition |
 | **Venue** | Zamboanga Peninsula Polytechnic State University (ZPPSU) |
-| **Location** | Western Mindanao, Region IX, Philippines |
 | **Skill Category** | Web Technologies |
 | **Result** | **1st Place / Regional 9 Champion** |
 | **Year** | 2026 |
